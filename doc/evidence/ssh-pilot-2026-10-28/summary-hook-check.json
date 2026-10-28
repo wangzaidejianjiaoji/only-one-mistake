@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-28T06:26:39.932Z",
+  "nativeHookTriggering": "not_verified",
+  "explicitAdapterCall": true,
+  "session": "ssh-pilot-training-1793168739448",
+  "turn": "explicit-pilot-summary",
+  "reviewRequested": true,
+  "summaryRecorded": {
+    "recorded": true,
+    "sessionId": "ssh-pilot-training-1793168739448",
+    "turnId": "explicit-pilot-summary"
+  },
+  "sameTurnSecondRequestBlocked": false,
+  "note": "显式适配器试点：已核对原 SSH 排查对话；当前 .248/22、lz/admin 连接成功。有意禁用身份失败，恢复现有密钥成功，新的会话接口命中项目经验并建立新连接。代理隧道已撤回不复用；原生桌面 hooks 触发与新故障自动修复未验证。本轮无需新增重复模板。"
+}

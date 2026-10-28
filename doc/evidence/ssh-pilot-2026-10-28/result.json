@@ -1,0 +1,130 @@
+{
+  "at": "2026-10-28T06:25:41.272Z",
+  "sourceThreadId": "01a18080-c6ed-75e1-981b-376bb9eeeb9f",
+  "origin": "explicit-readonly-ssh-pilot-not-native-hooks",
+  "project": "C:\\Users\\51698\\Documents\\Codex\\2026-10-28\\jie-j",
+  "state": "C:\\Users\\51698\\.codex\\evolveflow\\projects\\1fb19cf0a4b7df7968e38bcd\\state",
+  "memory": {
+    "sessionId": "ssh-pilot-training-1793168739448",
+    "problemKey": "ssh-248-noninteractive-existing-key",
+    "title": "248 SSH 非交互连接：区分认证、地址与远端联网",
+    "symptoms": [
+      "Permission denied (publickey,password)",
+      "非交互 SSH 连接失败"
+    ],
+    "environment": {
+      "cwd": "C:\\Users\\51698\\Documents\\Codex\\2026-10-28\\jie-j",
+      "platform": "win32",
+      "version": "v24.14.1",
+      "fingerprint": "4f53cda18c2baa0c0354bb5f"
+    },
+    "failedAttempts": [
+      {
+        "action": "\"ssh\" \"-o\" \"BatchMode=yes\" \"-o\" \"ConnectTimeout=8\" \"-o\" \"ConnectionAttempts=1\" \"-o\" \"StrictHostKeyChecking=yes\" \"-o\" \"ClearAllForwardings=yes\" \"-o\" \"IdentityAgent=none\" \"-o\" \"IdentitiesOnly=yes\" \"-o\" \"IdentityFile=none\" \"-o\" \"PreferredAuthentications=publickey\" \"lz@192.168.85.248\" \"whoami\"",
+        "reason": "本次有意禁用所有本地身份以复现认证失败；不是服务器重新丢失授权，也不是新业务故障。"
+      }
+    ],
+    "solution": "范围：当前 Windows 客户端、lz@192.168.85.248、现有 known_hosts 与已授权密钥。先以 BatchMode=yes、StrictHostKeyChecking=yes、ClearAllForwardings=yes 和有界超时建立新连接，验证 whoami=lz、hostname=admin。认证失败先检查可用身份/authorized_keys，不重复猜密码；已授权密钥无需再次追加。地址不可达先查 TCP/地址及主机身份，不能直接改认证。历史该主机重启后 DHCP 从 .248 变 .52，后来已改回固定 .248/22；网络修复须先重新验证，不能自动把其他机器改成 .248。远端 Codex workspace routing discovery failed 属独立联网层；旧代理隧道已经撤回，不自动恢复。不能把本次连接成功当成自动修复新故障。",
+    "verification": {
+      "eventId": "e2cafee57ed6968141a0c699",
+      "command": "\"ssh\" \"-o\" \"BatchMode=yes\" \"-o\" \"ConnectTimeout=8\" \"-o\" \"ConnectionAttempts=1\" \"-o\" \"StrictHostKeyChecking=yes\" \"-o\" \"ClearAllForwardings=yes\" \"lz@192.168.85.248\" \"whoami; hostname\"",
+      "evidence": "真实独立 SSH 进程返回 lz/admin；受控禁用身份失败、默认现有身份成功；历史来源 01a18080-c6ed-75e1-981b-376bb9eeeb9f。"
+    },
+    "evaluation": {
+      "similarEventId": "30218ec8699cbf5d2d2a3cdf",
+      "negativeEventId": "6def15ef8bac1166a5736c57"
+    },
+    "triggerTerms": [
+      "192.168.85.248",
+      "SSH 登录",
+      "SSH连接",
+      "Permission denied"
+    ],
+    "invalidWhen": [
+      "其他主机/账号/客户端；须重新验证身份和授权",
+      "主机密钥变化；停止并核验，禁止跳过检查",
+      "IP、路由、SSH 配置、密钥或服务器授权发生变化",
+      "连接成功但远端 Codex 联网失败；使用独立诊断"
+    ],
+    "scope": "project",
+    "kind": "memory",
+    "id": "cc6a9f48a113aad1e2af2be0",
+    "version": 1,
+    "status": "active",
+    "at": "2026-10-28T06:25:40.770Z"
+  },
+  "results": [
+    {
+      "label": "intentional-no-identity",
+      "sessionId": "ssh-pilot-training-1793168739448",
+      "command": "\"ssh\" \"-o\" \"BatchMode=yes\" \"-o\" \"ConnectTimeout=8\" \"-o\" \"ConnectionAttempts=1\" \"-o\" \"StrictHostKeyChecking=yes\" \"-o\" \"ClearAllForwardings=yes\" \"-o\" \"IdentityAgent=none\" \"-o\" \"IdentitiesOnly=yes\" \"-o\" \"IdentityFile=none\" \"-o\" \"PreferredAuthentications=publickey\" \"lz@192.168.85.248\" \"whoami\"",
+      "exitCode": 255,
+      "output": "lz@192.168.85.248: Permission denied (publickey,password,keyboard-interactive).\r\n",
+      "eventId": "89a7f50332203067a5a7bff5",
+      "preToolOutput": {}
+    },
+    {
+      "label": "verified-existing-key",
+      "sessionId": "ssh-pilot-training-1793168739448",
+      "command": "\"ssh\" \"-o\" \"BatchMode=yes\" \"-o\" \"ConnectTimeout=8\" \"-o\" \"ConnectionAttempts=1\" \"-o\" \"StrictHostKeyChecking=yes\" \"-o\" \"ClearAllForwardings=yes\" \"lz@192.168.85.248\" \"whoami; hostname\"",
+      "exitCode": 0,
+      "output": "lz\nadmin\n",
+      "eventId": "e2cafee57ed6968141a0c699",
+      "preToolOutput": {}
+    },
+    {
+      "label": "similar-new-transport",
+      "sessionId": "ssh-pilot-training-1793168739448",
+      "command": "\"ssh\" \"-o\" \"BatchMode=yes\" \"-o\" \"ConnectTimeout=8\" \"-o\" \"ConnectionAttempts=1\" \"-o\" \"StrictHostKeyChecking=yes\" \"-o\" \"ClearAllForwardings=yes\" \"-T\" \"lz@192.168.85.248\" \"whoami; hostname\"",
+      "exitCode": 0,
+      "output": "lz\nadmin\n",
+      "eventId": "30218ec8699cbf5d2d2a3cdf",
+      "preToolOutput": {}
+    },
+    {
+      "label": "unrelated-local-success",
+      "sessionId": "ssh-pilot-training-1793168739448",
+      "command": "\"D:\\\\Node\\\\node.exe\" \"-e\" \"process.stdout.write(\\\"LOCAL_ONLY\\\")\"",
+      "exitCode": 0,
+      "output": "LOCAL_ONLY",
+      "eventId": "6def15ef8bac1166a5736c57",
+      "preToolOutput": {}
+    },
+    {
+      "label": "reuse-verified-method",
+      "sessionId": "ssh-pilot-training-1793168739448-new-connection",
+      "command": "\"ssh\" \"-o\" \"BatchMode=yes\" \"-o\" \"ConnectTimeout=8\" \"-o\" \"ConnectionAttempts=1\" \"-o\" \"StrictHostKeyChecking=yes\" \"-o\" \"ClearAllForwardings=yes\" \"lz@192.168.85.248\" \"whoami; hostname\"",
+      "exitCode": 0,
+      "output": "lz\nadmin\n",
+      "eventId": "36c12bac162fe0d8d6ee96a1",
+      "preToolOutput": {}
+    }
+  ],
+  "newSessionContextIncludesMemory": true,
+  "newConnectionSucceeded": true,
+  "crossProjectExcluded": true,
+  "metrics": {
+    "observedFailures": 1,
+    "repeatedFailures": 0,
+    "blockedKnownFailures": 0,
+    "verifiedApplications": 0,
+    "observedTimeToVerifiedMs": [
+      {
+        "problemId": "adea4d8e0e36caa6d5bf96c6",
+        "milliseconds": 1016
+      }
+    ],
+    "misuseRate": null,
+    "misuseRateReason": "Requires independently labelled semantic evaluation; not inferred from exit codes.",
+    "modelCalls": 0
+  },
+  "nativeHookTriggering": "not_verified",
+  "newCodexChatCreated": false,
+  "serverChanges": false,
+  "passwordStored": false,
+  "limitations": [
+    "Controlled identity-suppression failure; server was already repaired before this pilot.",
+    "Manual adapter submission proves retrieval and real SSH reuse, not automatic desktop hook execution.",
+    "Memory is project-scoped; different project/remote host cannot inherit it automatically."
+  ]
+}

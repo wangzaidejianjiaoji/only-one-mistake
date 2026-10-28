@@ -1,0 +1,842 @@
+{
+  "threadId": "01a18080-c6ed-75e1-981b-376bb9eeeb9f",
+  "threadStatus": "idle",
+  "hasMore": false,
+  "turns": [
+    {
+      "id": "01a18140-0abb-7782-a181-87451ba78144",
+      "status": "completed",
+      "items": [
+        {
+          "id": "01a18140-0c4a-7d40-be64-d3eb859604c0",
+          "type": "userMessage",
+          "digest": "18255ce3fc1f35d309fa0cf1559c67321d7352a9915e9d3592a704c38e248025"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae199a0c1e881908bcceb03cd809f54",
+          "type": "agentMessage",
+          "digest": "1d47bee0fcc9e71f49077e2cd668550eb7d74d8a28d649958502b6d2a6d5c06c"
+        },
+        {
+          "id": "exec-b80cb49b-3ae1-4a06-a4f3-849d0f033868",
+          "type": "commandExecution",
+          "digest": "b3f1f1298fd84cf5624155a1eabb212c1f98f6a4829acc7fa01d143e5efebdd4"
+        },
+        {
+          "id": "exec-e7ca9750-85bc-400d-9ddb-057649baf4d5",
+          "type": "commandExecution",
+          "digest": "3f0f3c25b62f3594134a6f1089ffdcdb6b35fb27d178ccc683279970d8397369"
+        },
+        {
+          "id": "exec-3ddbd5e8-39ef-49c2-a509-4f35fb964528",
+          "type": "commandExecution",
+          "digest": "e54d89c3f8dd0ba60c98207248cae150c13127bbf643999286ee8c2867a23ef9"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae199df61848190afb70ce806fc2636",
+          "type": "agentMessage",
+          "digest": "789f109b8509c299d8710818955ed5ad826d7f24cf5e2f417967006b2ef36e44"
+        },
+        {
+          "id": "exec-8a6f7c18-115e-49fc-a498-b2614d75f14f",
+          "type": "commandExecution",
+          "digest": "32e161a5ac1d162497aa680bed70aa3fb24addaccbbc7f541fcb83df774fc107"
+        },
+        {
+          "id": "exec-b4b3b28f-6490-42e5-8f1c-8664f0b5350c",
+          "type": "commandExecution",
+          "digest": "f35f9c87e72e976b710428c56d2123382be26a13c87e03a612ae106e26402fa4"
+        },
+        {
+          "id": "exec-1f08c323-0e6d-4e3f-b001-75d0dbd8feb8",
+          "type": "commandExecution",
+          "digest": "f9222c679192c0820340fc061fa6c611af85f37aa061f6e6b749bbc4b116cdc1"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae19a38ecc88190a845ef30d6a09c8c",
+          "type": "agentMessage",
+          "digest": "64a494cf673be001bfccf13ef20cbc033e437b70dc819503b75b629342284e11"
+        },
+        {
+          "id": "exec-055a8404-a690-42e3-bec1-58b9e700b522",
+          "type": "commandExecution",
+          "digest": "c7b64be9b5c3abb848b6778e19e65365dc72c56fc2af3f550ebfd5a47217f631"
+        },
+        {
+          "id": "exec-d5bf53af-9335-4793-a169-b1dc67aab820",
+          "type": "commandExecution",
+          "digest": "6fd9e327ac4054ff4cf62d9b031170422e06996d78937ee1ce51e6a3adf23589"
+        },
+        {
+          "id": "exec-4f3b502b-0f3e-4e57-97a3-846ea8bc61b6",
+          "type": "commandExecution",
+          "digest": "32483d774da7d1c939021b8bb18c85cb2a72cdb3e12de223f597a10fb5e9d115"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae19a70b2f88190bdd6e115631e3476",
+          "type": "agentMessage",
+          "digest": "c4151fd6968627cf85da1b0d3ea2d3658d8309bdbefbd53cfc71ba14b63c5a74"
+        },
+        {
+          "id": "exec-a84f5ff2-a4f8-4a3a-8f50-86e2a608ac8e",
+          "type": "commandExecution",
+          "digest": "059033efefa822e6c67c94be84e62a0fdfdd0bce7664a8822ae3f6cd21bdeb81"
+        },
+        {
+          "id": "exec-ebc9605a-fb5b-46b8-9aa3-db063aa260fe",
+          "type": "commandExecution",
+          "digest": "11f3d821b5e8999d9ae2405d60079e0a13c1e68bd4f1e35a7d2b2b8ee360b746"
+        },
+        {
+          "id": "exec-438539c3-d1ae-4dd8-b101-c221d4bb84de",
+          "type": "commandExecution",
+          "digest": "a409351905cc24b5f9536d3cd7b6407c088c7891b2feb70b77826460068be3e1"
+        },
+        {
+          "id": "exec-85504d10-79bb-4552-97f1-56cf5c987888",
+          "type": "commandExecution",
+          "digest": "e057c06011ebdc8873876299cf50de366875108dccbaaa1a9db295227238bbc4"
+        },
+        {
+          "id": "exec-1703a8d5-9a9e-4752-86f8-f6e45393b352",
+          "type": "commandExecution",
+          "digest": "2829a78e7ac9e1b8065135451a7fcc0f3ea6a335a52bc3c1d8794e268f6d0e3f"
+        },
+        {
+          "id": "exec-7ab9c861-23f0-40d0-82b6-0c4346c0e149",
+          "type": "commandExecution",
+          "digest": "b70d220d4240f812f015c9de9d54c18e778a76850b1227587499f64621372a8e"
+        },
+        {
+          "id": "exec-8d7eafa6-da8f-4f5c-b2bc-4c485ce8a53c",
+          "type": "commandExecution",
+          "digest": "6b583cacb2225c8e0f8f05edc13fdd5f1d3a09113144aa6464bbbe5910b18b17"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae19af87f2081909a5156af0b1ca506",
+          "type": "agentMessage",
+          "digest": "bdf93eefeae4bd58e8df922cbcccb6bb33407f1e8c4314c463b139adac65a7f0"
+        },
+        {
+          "id": "exec-b939aa97-3863-4fc4-8866-3b0416ddb5b5",
+          "type": "commandExecution",
+          "digest": "26e4f722a93c4dab7a2c6846d1a9a5b4b31d71b1066b6b5afaeb7f4f8908ad8a"
+        },
+        {
+          "id": "exec-db8efbc9-d87c-4150-8e92-61697b5e243c",
+          "type": "commandExecution",
+          "digest": "8480843a01298cc157deba7526905e39882a3af6e4207e9e8a179ae9be69b67f"
+        },
+        {
+          "id": "exec-f7919e07-5dc3-47a8-b313-61937f612284",
+          "type": "commandExecution",
+          "digest": "6ff27382366748ceeccb35474fcaa58f87174a7accc8268c4ad3adae31070f89"
+        },
+        {
+          "id": "exec-6c77a81d-a221-4ee8-9ce9-fb0eb0a5be3c",
+          "type": "commandExecution",
+          "digest": "f35231a37e6fc474961d205cc2a3f4354c7b05706fb015db7b91807d2a9ae403"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae19b58358481909d9041f109323b26",
+          "type": "agentMessage",
+          "digest": "6bef489b317a6845c83447454025da28740ea75a72315eebe97323add142b53b"
+        },
+        {
+          "id": "exec-2e0907c9-6f8c-4bf0-b65f-1f8007e97fb5",
+          "type": "commandExecution",
+          "digest": "6cb20cdc0a765d2a26e7b82d62aadbb089aa76e0d6b5f897e282929156b458bc"
+        },
+        {
+          "id": "exec-2aea7a1d-6c54-4783-bf66-20378333bc38",
+          "type": "commandExecution",
+          "digest": "f4b4648af08c60a351f650f0ec495490e1250ffb0823ee87d8ebbf538712c6b1"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae19b88a094819099b98f854db22371",
+          "type": "agentMessage",
+          "digest": "6bf3def612ed399e669cd6546c41cd2490317481643853041ad966016b5ab25c"
+        }
+      ]
+    },
+    {
+      "id": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+      "status": "completed",
+      "items": [
+        {
+          "id": "01a1813d-3383-70d2-adf4-a22625a2df27",
+          "type": "userMessage",
+          "digest": "556ec507186e0d120141f6cfcb2ca3c9701a87ece830f2e09dc94f0dac30a5f2"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae198e4ada48190b1ee95294f254140",
+          "type": "agentMessage",
+          "digest": "13bc2f31fb48f856d9fdf20dcb0f688f28dd533f7270cd8deda942f485f78247"
+        },
+        {
+          "id": "exec-8a44e3ba-af1a-4d85-8431-33dc4c03cf3e",
+          "type": "commandExecution",
+          "digest": "871953125463e02eda3d8550c57c6b5b0601a0bd0026773158317126e327881a"
+        },
+        {
+          "id": "exec-e8f7e030-290a-44f4-b4b6-8f3fa881ac7c",
+          "type": "commandExecution",
+          "digest": "aaae9e64998635c2699f0fe153ebcc4ba37b269c8b81d1200ff1ca0a0ccffbcc"
+        },
+        {
+          "id": "exec-7714512f-9d29-4bc5-b97c-54b23d488249",
+          "type": "commandExecution",
+          "digest": "1ad013dc768f5a72b02d213f5751388ca9d91f6ed271852bd2caefd6f397b356"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae199166084819098e87c31ee199022",
+          "type": "agentMessage",
+          "digest": "7fb3f4045cac34ff25e8e958ecc243975ed835f0c52bc187bb5a64e57153282a"
+        },
+        {
+          "id": "call_ebf2ed1c828d4a2eaccacb8ac3b58714",
+          "type": "agentMessage",
+          "digest": "40c33a7f289b831aca67e729050be1908eda127f9c39b0a1a0e7478832b3dff2"
+        },
+        {
+          "id": "exec-d89bc0a4-3046-4ad2-9cb0-bfa0272a09a4",
+          "type": "commandExecution",
+          "digest": "c417a60cf107703be66f9a55d6209902692bb2f278ba0892c2ec6c6b29e1a352"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1994efce881909fdf2ee94ee92bc0",
+          "type": "agentMessage",
+          "digest": "cb7892a21c964e06c67429eb608791860d3359a53971fcd5ee32028900024858"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1996d6b5c8190b086bfb690e907fa",
+          "type": "agentMessage",
+          "digest": "f2816e2972a6119c5b93816ad075f93e50ec77b2cac198af935b8256d96414da"
+        }
+      ]
+    },
+    {
+      "id": "01a1812b-0e9f-7383-9916-fd6201a03b03",
+      "status": "completed",
+      "items": [
+        {
+          "id": "01a1812b-1099-7740-843f-b3aeb6826074",
+          "type": "userMessage",
+          "digest": "1f4a91419bfd1162c3cee8e38011284d3a283292b4ad2eefa714f462452f99b8"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1945170788190a64be80c67d1da16",
+          "type": "agentMessage",
+          "digest": "8ebedadeaa56b429f678a829b2d14ba0110dc63b95170df136431d6dd63c9063"
+        },
+        {
+          "id": "exec-3f791ed2-87f9-43ba-8c78-2e0002031a7f",
+          "type": "commandExecution",
+          "digest": "06f7bbc1b32b88a6a6470cd14d1980f9dcc9d90596babc789b426a774c120875"
+        },
+        {
+          "id": "exec-903da4aa-02d5-47e0-8262-3db08d50409d",
+          "type": "commandExecution",
+          "digest": "f732965d8d40f2c1c28abc1edb6c703ca5ea340e5b8f909c60049dd0ef918ba8"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1948a5eb081909e1782001db650c1",
+          "type": "agentMessage",
+          "digest": "c042aa76a4cfe85072e4488e2d7ce9e4917f9a232f984903a849199c44b3497b"
+        }
+      ]
+    },
+    {
+      "id": "01a1812a-c59c-7e30-8215-85479c1bdeeb",
+      "status": "completed",
+      "items": [
+        {
+          "id": "01a1812a-c923-7ed0-9590-0e4a9e088db3",
+          "type": "userMessage",
+          "digest": "1ac63c4a0a99a934100cb887d9a849152ec5073bdeb609e00c8fdb54a03a1e6e"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1942eebd48190a778be4d9b14c12b",
+          "type": "agentMessage",
+          "digest": "25fa2b92b20d2bfbed27a346393e33a2d18150b7c53f6bd1cdcee386a0e2ca9e"
+        },
+        {
+          "id": "exec-8f199338-c6da-41b2-b648-139ea7b23e99",
+          "type": "commandExecution",
+          "digest": "ecdd30f47f4f4c2a5b13f63d1f2660b764f44f080226613860f86d189761c281"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae19434fab08190b7e78793d2f5409e",
+          "type": "agentMessage",
+          "digest": "c411c4935e1fb4cc484123ed794f18f9bb1d4a2929132fef2c733f8d28625023"
+        }
+      ]
+    },
+    {
+      "id": "01a18128-efec-7363-940b-cc5ef72c711b",
+      "status": "completed",
+      "items": [
+        {
+          "id": "01a18128-f180-7523-b28a-db1f6f9b0bab",
+          "type": "userMessage",
+          "digest": "77ed97eb501fd84d923166d08e242e3ba5cbc43f3a59e24af5e62fa2cdecd918"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae193b6b07c819093295642027a9a6d",
+          "type": "agentMessage",
+          "digest": "f5d9b157b52d102724dc40234ac2a796cea24b2699ce7adc049e489063ac1a80"
+        },
+        {
+          "id": "exec-22037ca0-f849-4bbc-a16d-b9af3a40e51c",
+          "type": "commandExecution",
+          "digest": "f22472ae6c42de0baddf89511072802bf733df99487ae944824408856c4d07a2"
+        },
+        {
+          "id": "exec-022ab0f3-fb0a-408c-b467-ee68fe36e3e0",
+          "type": "commandExecution",
+          "digest": "d63c2159cbba76c926578d4bd2b18036fc18549996ff9c9155772cc43454d8b9"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae193e7c4108190be3d92636ef82d2d",
+          "type": "agentMessage",
+          "digest": "d544199a15cb8d857be6cf652e816e395ccffc4a3b7403f9c26e41c7606206ab"
+        },
+        {
+          "id": "exec-cb9683ef-a0fa-4227-99d2-751ea652a64a",
+          "type": "commandExecution",
+          "digest": "cd981aad8f35bc3b5e4179c4898eacb9d44626e110ae662b17986e741212803d"
+        },
+        {
+          "id": "exec-0c2d8bd5-890b-48fa-a0d5-5d9ef6ff36c6",
+          "type": "commandExecution",
+          "digest": "570c9b7dc33b3bab14c4888d5a133a42ab2c8db5bf84f41fdcdb386ec47668f1"
+        },
+        {
+          "id": "exec-0dfafe7d-8586-4465-9435-26512cce4517",
+          "type": "commandExecution",
+          "digest": "b0ffab7ab3ae114aed23948824f89aaa1e751e7abbee3b7f2c02c2dae798793a"
+        },
+        {
+          "id": "exec-61ee5afc-cb60-406a-93a4-b3ce5687eb1a",
+          "type": "commandExecution",
+          "digest": "28b2a285681566e17b6d682163bffd3306bce7ce0a839aca868e26ede678ad02"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1941e908c8190aed4b41917a500f2",
+          "type": "agentMessage",
+          "digest": "ceb5e737875c1a55d675cc63285e37b58f0bb70ed412664f51f0acec6ee3ee3c"
+        },
+        {
+          "id": "exec-99c44a25-c670-456a-8539-ce3ac62074e5",
+          "type": "commandExecution",
+          "digest": "9ba44456de08d326fc7a8b264fb0fbda9ae7a2a79a12c8f9f224c73530b9b975"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae194277e0881908d37c3e887dbfd4d",
+          "type": "agentMessage",
+          "digest": "d2083c9f421401fe67d861d4356e94a757cb1ab96e9794e279f77a28f335719d"
+        }
+      ]
+    },
+    {
+      "id": "01a18126-d4f4-7b31-8e49-e3ca2a685794",
+      "status": "completed",
+      "items": [
+        {
+          "id": "01a18126-e0ab-7372-bf2f-80072597ba0e",
+          "type": "userMessage",
+          "digest": "1605ce54e1a6b75ce55d00c4baf698cf94d056d93dbda9cb5b16b9a3cf82a105"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1932e05488190a2555393384b6d7f",
+          "type": "agentMessage",
+          "digest": "f1a3706412fc419e46d50918c188813d1aa6d8a836dfe831db6753fb0428936c"
+        },
+        {
+          "id": "exec-d71f7d43-0e90-441d-9af0-fb10bbf47073",
+          "type": "commandExecution",
+          "digest": "f0cedc3e0b616a014b0172f1aa0bb62f1358ed20b680d6826a0f437cdfde19d2"
+        },
+        {
+          "id": "exec-995e5454-9a5b-4ace-9c9c-991d23c6b61e",
+          "type": "commandExecution",
+          "digest": "6cacb59a73c782cc73066e64c5a687aab7be353544e2b51af699c1a19d854494"
+        },
+        {
+          "id": "exec-dac7a00e-9135-48cd-ab5f-3f563ce47b8f",
+          "type": "commandExecution",
+          "digest": "6ffac2d4b1c3194fb36bf2b4fb61d65378eae204490030331ecfbd1fc72894d6"
+        },
+        {
+          "id": "01a18127-bd8b-7943-81d1-0d65e4a65a22",
+          "type": "userMessage",
+          "digest": "c31bbdc1f903b2082aaae52eadabe8325f1ca7923dbebba310047d621e98f82f"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae19369056c8190b33b7826611437ff",
+          "type": "agentMessage",
+          "digest": "03b5cd860bd0d1459dbb5aefd5f182d199d68314d85de82b83cff9c1ec8ae18c"
+        },
+        {
+          "id": "exec-db6fc7f6-dc38-4de9-9e5c-35416534199f",
+          "type": "commandExecution",
+          "digest": "640c128cf8f8d19d6d1d6f7bbfd8c3e87c99974789242a530373a0a0c1dc1646"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae193820518819094ad6ae5f862e734",
+          "type": "agentMessage",
+          "digest": "5530624b259415dff59d859f398bca0fdb5d1441d5dd4ae57462766c42a9e25e"
+        }
+      ]
+    },
+    {
+      "id": "01a18123-dadf-7c63-96ba-837daae049d1",
+      "status": "interrupted",
+      "items": [
+        {
+          "id": "01a18123-dd9b-7671-903a-8f8900f5329d",
+          "type": "userMessage",
+          "digest": "4368b7927535d23448e4305eff540407426521d5d3daabc8d9c3414c54ec9dd9"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1926a84948190a7bf8f5528880b9a",
+          "type": "agentMessage",
+          "digest": "5744f8005fdbb49418f65fe9d89b804ae61a8208e6675892d88fc4aa80570cba"
+        },
+        {
+          "id": "exec-e514882b-a6fc-4ece-832c-f45861eb9404",
+          "type": "commandExecution",
+          "digest": "579adf5f86e6f7672648b8a5c2c713dbf7c393f0fc0c27b4cb909287c17f96d8"
+        },
+        {
+          "id": "exec-bb14514b-a0f4-4422-9dac-20fde3ca30bb",
+          "type": "commandExecution",
+          "digest": "20057487a10446fdbc162f879c97c8b7747cd0347dd563fea0a3d477704f6ccc"
+        },
+        {
+          "id": "exec-ccfe1d4b-0e67-4589-8c4b-a5d48f735fde",
+          "type": "commandExecution",
+          "digest": "3a3ac6444ffba8f3d7311dde94600520c2eadc9d318ddd610dfc11d2dbef2de5"
+        },
+        {
+          "id": "exec-1aad6b14-2a20-4261-a955-b4aad3c8f107",
+          "type": "commandExecution",
+          "digest": "9822df66d62fa6337c85d926ff49d3dfc49fe44f67efcc4fbc9a5af25aab5909"
+        },
+        {
+          "id": "exec-47d0c660-7cb8-4263-bfe2-90bc51ab0b46",
+          "type": "commandExecution",
+          "digest": "b54750bcf3e3c1a014f64cc11b21a7e8b567d826f204e86e948833d5e9d27b60"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae192b83eb88190b72c2f436e7927c4",
+          "type": "agentMessage",
+          "digest": "1a416cf2edcc1f32067ac9d087fd2fe18b213d9333671d4e7f66b018f89a127a"
+        },
+        {
+          "id": "exec-1cef6665-aa91-48b5-a87d-7391dde2dcd2",
+          "type": "commandExecution",
+          "digest": "4541182a80a8d01cfb33826ea84d49dfbca02a1f7f21c85a872312fe48658a1c"
+        },
+        {
+          "id": "exec-25b7d799-eccd-4e45-a47e-ada8528e8fa4",
+          "type": "commandExecution",
+          "digest": "66d580b901007e93590316434492d7a569dc2ed1f1da04c274aebdf05818e8d2"
+        },
+        {
+          "id": "call_c51c531b839d483699e1c0f0e63f4fd9",
+          "type": "agentMessage",
+          "digest": "70bc4af9902e9a92e7e16f0a139f5e97d94bb73505c27aced5a38a7548ed34db"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae192e66b0881908edb928373b2bce0",
+          "type": "agentMessage",
+          "digest": "eb46ac6da175c8dfeeacbfd6ee2c92933f60bf500c84b3ae6bed440c410316a8"
+        },
+        {
+          "id": "exec-841f5d60-a46c-4a7c-8dec-fd92c11784c7",
+          "type": "commandExecution",
+          "digest": "5c5a16e74265f68e04517a2770b1cf825687a6e1dc798e82f249c03a42949415"
+        },
+        {
+          "id": "01a18126-1833-71a3-b780-307ebc703111",
+          "type": "userMessage",
+          "digest": "c71caec66b3742fa760902b236d0aa6a1c3a87a1875d500d8b5af2555b9920b2"
+        }
+      ]
+    },
+    {
+      "id": "01a180f9-f874-71d0-bc74-55077bb9a67b",
+      "status": "completed",
+      "items": [
+        {
+          "id": "01a180f9-fa2a-78b2-b14a-c859f2dc6eef",
+          "type": "userMessage",
+          "digest": "ea9eb276c446643b2524f8b490be3db66468f3221d4b7263ee3ac5fc02e9835c"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae187b130948190804756da1d5b6408",
+          "type": "agentMessage",
+          "digest": "36a86e9af06fea4def9e84dc8a4ecd9c735402d4fa60757ba7c54ca52ee41304"
+        },
+        {
+          "id": "exec-136f33af-d862-4984-a1a4-9b7a424638e7",
+          "type": "commandExecution",
+          "digest": "6e9736c3d701c14e3f8328a084c98d2514172578aaaa01156bc1a01bc0963d38"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae187c154d88190b009bb01f7eb12b4",
+          "type": "agentMessage",
+          "digest": "02bd4ec248bb364ee4bdf5927fbadf3ae3f7836698af99ad5ce69196d7093ec2"
+        },
+        {
+          "id": "exec-ff49a8f1-3167-4d97-bdea-e616b93f1a61",
+          "type": "commandExecution",
+          "digest": "e3c943211e629dc30c6213c1c647a30e70ea362598dc12d6791c7b53d61e28a0"
+        },
+        {
+          "id": "exec-c882971b-a517-4b07-a7b5-d67602684032",
+          "type": "commandExecution",
+          "digest": "ecb3c2bb0f8fa79b9ef321493241c19e653538258f172bbd1599a2a92998516f"
+        },
+        {
+          "id": "exec-275a06b1-1b19-421d-a473-1a4aa18f177c",
+          "type": "commandExecution",
+          "digest": "99a5bc3afebc6e8744b99e837b0806abc9bbb644a93f0895071b4be0cc8642eb"
+        },
+        {
+          "id": "exec-dee2fb3b-e2ab-4e9f-9c98-d59694dcd03d",
+          "type": "commandExecution",
+          "digest": "364cabc362181f835a62f4dea008eff087330965a07aec163eeae031e9203143"
+        },
+        {
+          "id": "exec-14779d07-b524-4290-9841-4b3af96240f0",
+          "type": "commandExecution",
+          "digest": "a3b1364a45860551cf2a49c961226c24fe20e2779fac1b2fb5a38424c3b05de0"
+        },
+        {
+          "id": "exec-4aa04b72-8724-4a09-bdf7-efe32557cd31",
+          "type": "commandExecution",
+          "digest": "e75434b91ed240f4e570f35150e40ca76eba40dd24a55b4e3cdeb76d5a268881"
+        },
+        {
+          "id": "exec-ca79b165-2db8-4e54-8a03-b7a5dae17def",
+          "type": "commandExecution",
+          "digest": "13a22b7d928bbb8a310cbeb9ece820a7963d31a567d369c27700678bda4c831e"
+        },
+        {
+          "id": "exec-50f9601c-316f-4516-a55a-867f7b561d49",
+          "type": "commandExecution",
+          "digest": "4464b395eb497afc3853536b5bbf978100cd8c898296bf13745fa825f013a39d"
+        },
+        {
+          "id": "exec-4733a99d-dbea-491a-80a6-06da122bd57e",
+          "type": "commandExecution",
+          "digest": "81c2f92992a36d47c9b647cc586266f102cbfe90064d7d7e1dace9e99e488155"
+        },
+        {
+          "id": "exec-c3da8dc2-00fd-4913-afd4-99b245b2205f",
+          "type": "commandExecution",
+          "digest": "8777d1941ec789b3e78c33e25b515da22a4d435d2976a17246abbbd5d3c710a7"
+        },
+        {
+          "id": "exec-df16096a-82f0-439d-abe8-48349359f7d4",
+          "type": "commandExecution",
+          "digest": "5db9c7683ccb7d1a6ee28888363f335b83962ac2627004e3acd26518fe8d198f"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae18828ae888190900cc4ef6b93d298",
+          "type": "agentMessage",
+          "digest": "6831c26aa82dc5f2f342f66e14d4df9e00feaee4e0571c68bec0422c6874c571"
+        },
+        {
+          "id": "exec-313c1b7e-fd33-4bee-9f4e-80848a3fb2bd",
+          "type": "commandExecution",
+          "digest": "b33a528344948e450280256bd02eacaee596fe6629e6087a454b8f2a027b128e"
+        },
+        {
+          "id": "exec-3fc8f792-fa26-468d-961f-a8c152255d49",
+          "type": "commandExecution",
+          "digest": "c6b84d3519634bf6de9f2691975513a98b6d0bac166df3f4c225d21d2c7d212e"
+        },
+        {
+          "id": "exec-45c9aeb6-f272-4647-afa3-00f95aa258c3",
+          "type": "commandExecution",
+          "digest": "2a9d15e387553ebbe25c7885e73642f0c0344c795a4005fdd9d3e8d24d478a13"
+        },
+        {
+          "id": "exec-9accae8b-b623-4b4b-b57c-42240fc37464",
+          "type": "commandExecution",
+          "digest": "1f913533aa15b6f99eb9cfaeca87f58be9db457d229a0f9e41d77970362fa9d0"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae188852e808190ae50c677f9b253a5",
+          "type": "agentMessage",
+          "digest": "d60ff19b2d25f369a16fb87284a22981734d9973af3ad0122651713bb2e2ce50"
+        }
+      ]
+    },
+    {
+      "id": "01a180ee-ea50-71d1-b3b2-50ff5bd39e6f",
+      "status": "interrupted",
+      "items": [
+        {
+          "id": "01a180ee-ec27-7810-93cb-fd9c3d0c3690",
+          "type": "userMessage",
+          "digest": "4dea92b09382fb99de83d8cac55861c7c00a80a74a2e038bb67561d294bace3c"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae184db24f08190afabcfdf19e924d8",
+          "type": "agentMessage",
+          "digest": "5fb562496fea977bc9ad4574483021c95981bc8ab8fcd1ce2452cdaf090230e1"
+        },
+        {
+          "id": "exec-43c6f783-fdc5-473b-9724-292bb85f347b",
+          "type": "commandExecution",
+          "digest": "ae811aa64f903fc052f95870118880ca8bd267f2da64ce126ae0478f2e4779f6"
+        },
+        {
+          "id": "exec-66993ddd-2805-44fb-97d9-d04fc1a6c950",
+          "type": "commandExecution",
+          "digest": "ac983b445861bd892cbb3f0c7c1a0dbf74436c8dabf77a9b8e06e04f3ae485ab"
+        },
+        {
+          "id": "exec-40f3ce33-40ab-416a-85ec-8eae566cb7d3",
+          "type": "commandExecution",
+          "digest": "efd557e3606ebd98f19807c5aba10b8c1a2c19e815584092e99027a5fdf25bd4"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1850c3eb88190af488f0739c3d1ae",
+          "type": "agentMessage",
+          "digest": "8d3d93e210b23645829e00709e75c9c764edc5c53fd6b971e452cbf4bb0e7157"
+        },
+        {
+          "id": "exec-1f089124-74cf-4e80-83c3-6d8f8809a70e",
+          "type": "commandExecution",
+          "digest": "f5dc0fe1e6c670fbf653878a536e3a6c94bcd90d831ff55f32eb06a4a7b251ae"
+        },
+        {
+          "id": "exec-89a267cc-6292-451e-a8d7-b0756f0ddd7b",
+          "type": "commandExecution",
+          "digest": "691f95cdbc4cb5248f3a08991b0d3e0e38f752d49d8e7aa2d64d8cc7268e89e6"
+        },
+        {
+          "id": "exec-35705048-4864-48f0-8a0d-65ab15cc48e2",
+          "type": "commandExecution",
+          "digest": "6b1dd672fe55c082903660c210a23cc73fb50a09cf6a0d77a681ed765489d8e6"
+        },
+        {
+          "id": "exec-b6e698bc-f113-42de-8602-80dbc463cc5b",
+          "type": "commandExecution",
+          "digest": "4d167d80af51db7a9c5bc5f03a3bc4cc9bbd3ec3760e4f8df80c06a126bfc663"
+        },
+        {
+          "id": "exec-f5e44d1a-7866-45bb-bba7-5c61da3f8643",
+          "type": "commandExecution",
+          "digest": "7a8d2e33a46ef0fa6139597f6532c12c2e549b7ed58c422daed6fe4f8d39f58b"
+        },
+        {
+          "id": "exec-9e798e11-3155-4162-853f-9e750420a313",
+          "type": "commandExecution",
+          "digest": "f1c2fb36a4b51bfc6cadc5f492e4ab0338ce626776906c6e2ac06c2f1c5fad75"
+        },
+        {
+          "id": "exec-49299abc-bf4e-49d7-9645-612bbb6e99d2",
+          "type": "commandExecution",
+          "digest": "99d5c03007ee0d61ce414fa14b317152b33fbf48114974e78d56abf36f5f0807"
+        },
+        {
+          "id": "exec-3409c70b-9ab8-41c5-a3f3-6a1f305cedd2",
+          "type": "commandExecution",
+          "digest": "65f953e8f427b533df6df28107997799d57593ed989d06e8cc8d6a403443b742"
+        },
+        {
+          "id": "exec-226e66b2-8962-485d-aa12-54c827d23ee8",
+          "type": "commandExecution",
+          "digest": "8fadc6b17478e9f46e7507f328cd05cc5f8c5f207eb453b2e6c7923e87c2b4a7"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae1856231d48190a8c76b4b1cee6ad7",
+          "type": "agentMessage",
+          "digest": "1a18acea766023cd3968247918c192cd6891031870202be147092a9e9c7d0ee1"
+        },
+        {
+          "id": "exec-d52cc8d6-97e0-4c41-8e1e-ab51e6762f4a",
+          "type": "commandExecution",
+          "digest": "82b71a64a35f5f446fdd2690c6e0591ea4ef4f2ede0e995103734313368e36f5"
+        },
+        {
+          "id": "exec-41842b42-e938-4b8f-9068-03c10a1dcd1b",
+          "type": "commandExecution",
+          "digest": "6949192f3cc6ae44f6f842690caa2d8eb8b0536b9a7f51fec1772b28ab998e4e"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae18579b1048190ad6a9879d91f5eb1",
+          "type": "agentMessage",
+          "digest": "88f785b61e9b5765feb6e7597dc63eae9cea65b0db342b0e8dcac26b8f3baa4b"
+        },
+        {
+          "id": "exec-a3490a50-6b0d-40e3-8a5a-c659dc598f3d",
+          "type": "commandExecution",
+          "digest": "0916f4faba61de6b46a798f9d3b1a4f2da845629c0668d07accb8167130182c8"
+        },
+        {
+          "id": "exec-8a78652f-f072-4306-8eab-fc14bfc7ac89",
+          "type": "commandExecution",
+          "digest": "fafc7166c0f769b10eeb6c06913bfb92a2a19cc989a38ab94f60b5577015b9a5"
+        },
+        {
+          "id": "exec-2a49b542-00a8-4a77-873d-7a3946620105",
+          "type": "commandExecution",
+          "digest": "2477beff5369c561025dbbbc5b39b732be0195003cec8697d1d4af00885cfef1"
+        },
+        {
+          "id": "exec-39d414d1-f93a-471f-9be8-a210b2004fc5",
+          "type": "commandExecution",
+          "digest": "af90d96b721f455262ffccc19acca7423a145182ce56f96fe44aa38bea0653d1"
+        },
+        {
+          "id": "exec-b6ffd644-b5b8-4487-9be7-9cbf0e051819",
+          "type": "commandExecution",
+          "digest": "357c4c7fad8170522c1aa5383814caae17d120e7166a5820c44ea61605f50d4e"
+        },
+        {
+          "id": "exec-c2804e23-634f-40e8-b9d5-5866dd270b1e",
+          "type": "commandExecution",
+          "digest": "8939f935c8b8c270803033cff2b37b069727e1cc9ccddf49672e95d129375726"
+        },
+        {
+          "id": "call_dcb0b70cf54c410a8e1acc9baaec16a0",
+          "type": "agentMessage",
+          "digest": "5a693c3367c277aa748ace9448544c41246ae4f1de4d390af41947a08618dfbc"
+        },
+        {
+          "id": "exec-153d29e6-0763-40c0-904d-6d22ceb72792",
+          "type": "commandExecution",
+          "digest": "ee1f5309476daa438b6409402e1a7e324c80db579f18e0d173e8f39a97942877"
+        },
+        {
+          "id": "exec-b73d4e3f-584b-44b6-8ef6-dd0cbf2c2a68",
+          "type": "commandExecution",
+          "digest": "a3df84178b43d8518b25c48e136f6419a1bf244661b5b35e0f7c47bb09faf34d"
+        },
+        {
+          "id": "exec-1cf66993-bd66-4a7a-8617-d280ac7c1cfe",
+          "type": "commandExecution",
+          "digest": "2fa5c5bedb52a89916fc2cf281c2e51cce03205b0f7995abc1b7d04145861eb3"
+        },
+        {
+          "id": "exec-a84b0ce7-d5a3-44fa-a719-79b26e42c7c0",
+          "type": "commandExecution",
+          "digest": "5376e038d8ee59c1558a8f22881df65e5c0c1f02006591a8cba1d766b993f2bb"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae185eaee048190bfba31e5b1ef0534",
+          "type": "agentMessage",
+          "digest": "e562afbe50f836d1b4cbdf43c88bf580cbe40cb736e69627097eaf56dba2b767"
+        },
+        {
+          "id": "exec-132d9148-df5f-499c-943b-a7aa55ab75cb",
+          "type": "commandExecution",
+          "digest": "3dcdb7a57b8371568719d8f45a9511f1c8599f91242a058902d01a93be4582c5"
+        },
+        {
+          "id": "exec-7bd8ada9-4dd1-4d08-96b8-a8bea652fe69",
+          "type": "commandExecution",
+          "digest": "f0de420e159bb790af17e434c87d7264b8ebe3a0efbc3b3322a5bfb3b2ebb988"
+        },
+        {
+          "id": "exec-0a85946e-dcbe-44b9-ae7c-976b423349ad",
+          "type": "commandExecution",
+          "digest": "71cd8c40ca0602be9538987a86e168a759aeca7b5d4fe8c4aa67ac65c70955e3"
+        },
+        {
+          "id": "exec-20b34e81-1ea8-4e93-b4bd-36a85c950532",
+          "type": "commandExecution",
+          "digest": "dbd50654096b5d266825103d909b5ea22827d61ba0bd6be7a3cfa3c68dfeda2c"
+        },
+        {
+          "id": "exec-69ec4c3b-6759-437a-852f-15e8c48c651d",
+          "type": "commandExecution",
+          "digest": "adc294faee22e7d6a849e8fd6c6f751ec8c8e7a8cf13b4d9f61e42e0dddfbb6a"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae18637b77c8190a5b317608948c2a1",
+          "type": "agentMessage",
+          "digest": "e0b8df2458eb16ba404f0e81c792517e8749e0316624a6c8044efe049b84bc43"
+        },
+        {
+          "id": "exec-2bcbaefa-daaf-4e64-ae5d-d95b9c4d260d",
+          "type": "commandExecution",
+          "digest": "e5f62de53783ed139c057eea8c28d88664abce511c55ece817587358400de09d"
+        },
+        {
+          "id": "exec-b3d6f627-46c6-45b5-9a01-84a3b1edd96b",
+          "type": "commandExecution",
+          "digest": "8a05bab4a6c41d52006d16a923a1e2e6c9c2c4e5198239f0b0388dc4a4fb6b44"
+        }
+      ]
+    },
+    {
+      "id": "01a18080-ce74-7ed3-ae41-f1a4da94175b",
+      "status": "completed",
+      "items": [
+        {
+          "id": "01a18080-d998-7443-a9c8-7c8affe690f3",
+          "type": "userMessage",
+          "digest": "9447cb95fd0eefab1880537abf7e922759002bcb553d71344987c731a74c9946"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae168ad9504819097cc88f27ae928be",
+          "type": "agentMessage",
+          "digest": "7be51e2bc0e0b2d3eacdc10030e0d68f874b30b661aa0d09a9f65e643c76649f"
+        },
+        {
+          "id": "exec-b38bb88c-e5ac-4318-8e26-792aa9100cb6",
+          "type": "commandExecution",
+          "digest": "c49f8bd80fe04004c19d95bb29bf06171357c519c0671b74d74f5bc2a6f0d016"
+        },
+        {
+          "id": "exec-2515a002-c793-4433-951d-e47170f6b6f0",
+          "type": "commandExecution",
+          "digest": "e63ae58abc3145c912ff7a984ef1a7ca61497ab89c72c62776a28164250238a5"
+        },
+        {
+          "id": "exec-a19122b7-a52b-4a25-acc9-23aa8a34e597",
+          "type": "commandExecution",
+          "digest": "8f443df425ad370809a42fdd473048f5243e552ffeffd5c7c4064b21eefcba22"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae168daf0b08190be1f30fc34b8a0d6",
+          "type": "agentMessage",
+          "digest": "7e7db59023fdc9309356cfed14526bcccdcbeb79935b5814a35ece1521bb40d7"
+        },
+        {
+          "id": "exec-63631b4e-0fa1-49fb-bda3-7e7f583520e4",
+          "type": "commandExecution",
+          "digest": "73fecf42330c684cf6b36657f3b414a3da6b9ebaa4cb516d65a880d7ca41f56b"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae168e583a4819088fefc4360260f16",
+          "type": "agentMessage",
+          "digest": "c9c117120dddc4bb1eaed247ba5e282393063384df83bacb02d75efd87d09e83"
+        },
+        {
+          "id": "exec-0c5802ba-e86a-459b-bd84-ac333551cb5e",
+          "type": "commandExecution",
+          "digest": "01abebfcad2042b0ca454c10416a8428443c2c2256f4e9dc33cd5e4d8c8416f0"
+        },
+        {
+          "id": "exec-e30e35c9-55cd-40ae-96a0-850f200b8f0b",
+          "type": "commandExecution",
+          "digest": "8fee2d0e41f14a7cc9014ac191bd4e2163d338cb94672a038507c849c9d8fd24"
+        },
+        {
+          "id": "msg_0907eca9414858a6016ae168f6fbd88190be81d4781fae2778",
+          "type": "agentMessage",
+          "digest": "a39f320c0843cc9faf3e8b89eb9f3a942ff0723de81217beb1ca3ff007db8487"
+        }
+      ]
+    }
+  ]
+}

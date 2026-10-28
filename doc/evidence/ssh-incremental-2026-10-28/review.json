@@ -1,0 +1,328 @@
+{
+  "at": "2026-10-28T06:54:27.695Z",
+  "threadId": "01a18080-c6ed-75e1-981b-376bb9eeeb9f",
+  "sourceComplete": true,
+  "sourceTurnCount": 10,
+  "priorTurnCount": 8,
+  "scope": "explicit semantic delta review; not automatic native hook verification",
+  "memoryId": "cc6a9f48a113aad1e2af2be0",
+  "beforeState": {
+    "memories": 1,
+    "versions": 1,
+    "version": 1,
+    "events": 13
+  },
+  "first": {
+    "applied": true,
+    "versionWritten": true,
+    "delta": {
+      "newTurns": [
+        "01a18140-0abb-7782-a181-87451ba78144",
+        "01a1813d-2fe1-7c51-9a16-9873b1fe9271"
+      ],
+      "addedItems": [
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "01a18140-0c4a-7d40-be64-d3eb859604c0",
+          "type": "userMessage",
+          "digest": "18255ce3fc1f35d309fa0cf1559c67321d7352a9915e9d3592a704c38e248025"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "msg_0907eca9414858a6016ae199a0c1e881908bcceb03cd809f54",
+          "type": "agentMessage",
+          "digest": "1d47bee0fcc9e71f49077e2cd668550eb7d74d8a28d649958502b6d2a6d5c06c"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-b80cb49b-3ae1-4a06-a4f3-849d0f033868",
+          "type": "commandExecution",
+          "digest": "b3f1f1298fd84cf5624155a1eabb212c1f98f6a4829acc7fa01d143e5efebdd4"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-e7ca9750-85bc-400d-9ddb-057649baf4d5",
+          "type": "commandExecution",
+          "digest": "3f0f3c25b62f3594134a6f1089ffdcdb6b35fb27d178ccc683279970d8397369"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-3ddbd5e8-39ef-49c2-a509-4f35fb964528",
+          "type": "commandExecution",
+          "digest": "e54d89c3f8dd0ba60c98207248cae150c13127bbf643999286ee8c2867a23ef9"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "msg_0907eca9414858a6016ae199df61848190afb70ce806fc2636",
+          "type": "agentMessage",
+          "digest": "789f109b8509c299d8710818955ed5ad826d7f24cf5e2f417967006b2ef36e44"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-8a6f7c18-115e-49fc-a498-b2614d75f14f",
+          "type": "commandExecution",
+          "digest": "32e161a5ac1d162497aa680bed70aa3fb24addaccbbc7f541fcb83df774fc107"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-b4b3b28f-6490-42e5-8f1c-8664f0b5350c",
+          "type": "commandExecution",
+          "digest": "f35f9c87e72e976b710428c56d2123382be26a13c87e03a612ae106e26402fa4"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-1f08c323-0e6d-4e3f-b001-75d0dbd8feb8",
+          "type": "commandExecution",
+          "digest": "f9222c679192c0820340fc061fa6c611af85f37aa061f6e6b749bbc4b116cdc1"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "msg_0907eca9414858a6016ae19a38ecc88190a845ef30d6a09c8c",
+          "type": "agentMessage",
+          "digest": "64a494cf673be001bfccf13ef20cbc033e437b70dc819503b75b629342284e11"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-055a8404-a690-42e3-bec1-58b9e700b522",
+          "type": "commandExecution",
+          "digest": "c7b64be9b5c3abb848b6778e19e65365dc72c56fc2af3f550ebfd5a47217f631"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-d5bf53af-9335-4793-a169-b1dc67aab820",
+          "type": "commandExecution",
+          "digest": "6fd9e327ac4054ff4cf62d9b031170422e06996d78937ee1ce51e6a3adf23589"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-4f3b502b-0f3e-4e57-97a3-846ea8bc61b6",
+          "type": "commandExecution",
+          "digest": "32483d774da7d1c939021b8bb18c85cb2a72cdb3e12de223f597a10fb5e9d115"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "msg_0907eca9414858a6016ae19a70b2f88190bdd6e115631e3476",
+          "type": "agentMessage",
+          "digest": "c4151fd6968627cf85da1b0d3ea2d3658d8309bdbefbd53cfc71ba14b63c5a74"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-a84f5ff2-a4f8-4a3a-8f50-86e2a608ac8e",
+          "type": "commandExecution",
+          "digest": "059033efefa822e6c67c94be84e62a0fdfdd0bce7664a8822ae3f6cd21bdeb81"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-ebc9605a-fb5b-46b8-9aa3-db063aa260fe",
+          "type": "commandExecution",
+          "digest": "11f3d821b5e8999d9ae2405d60079e0a13c1e68bd4f1e35a7d2b2b8ee360b746"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-438539c3-d1ae-4dd8-b101-c221d4bb84de",
+          "type": "commandExecution",
+          "digest": "a409351905cc24b5f9536d3cd7b6407c088c7891b2feb70b77826460068be3e1"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-85504d10-79bb-4552-97f1-56cf5c987888",
+          "type": "commandExecution",
+          "digest": "e057c06011ebdc8873876299cf50de366875108dccbaaa1a9db295227238bbc4"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-1703a8d5-9a9e-4752-86f8-f6e45393b352",
+          "type": "commandExecution",
+          "digest": "2829a78e7ac9e1b8065135451a7fcc0f3ea6a335a52bc3c1d8794e268f6d0e3f"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-7ab9c861-23f0-40d0-82b6-0c4346c0e149",
+          "type": "commandExecution",
+          "digest": "b70d220d4240f812f015c9de9d54c18e778a76850b1227587499f64621372a8e"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-8d7eafa6-da8f-4f5c-b2bc-4c485ce8a53c",
+          "type": "commandExecution",
+          "digest": "6b583cacb2225c8e0f8f05edc13fdd5f1d3a09113144aa6464bbbe5910b18b17"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "msg_0907eca9414858a6016ae19af87f2081909a5156af0b1ca506",
+          "type": "agentMessage",
+          "digest": "bdf93eefeae4bd58e8df922cbcccb6bb33407f1e8c4314c463b139adac65a7f0"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-b939aa97-3863-4fc4-8866-3b0416ddb5b5",
+          "type": "commandExecution",
+          "digest": "26e4f722a93c4dab7a2c6846d1a9a5b4b31d71b1066b6b5afaeb7f4f8908ad8a"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-db8efbc9-d87c-4150-8e92-61697b5e243c",
+          "type": "commandExecution",
+          "digest": "8480843a01298cc157deba7526905e39882a3af6e4207e9e8a179ae9be69b67f"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-f7919e07-5dc3-47a8-b313-61937f612284",
+          "type": "commandExecution",
+          "digest": "6ff27382366748ceeccb35474fcaa58f87174a7accc8268c4ad3adae31070f89"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-6c77a81d-a221-4ee8-9ce9-fb0eb0a5be3c",
+          "type": "commandExecution",
+          "digest": "f35231a37e6fc474961d205cc2a3f4354c7b05706fb015db7b91807d2a9ae403"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "msg_0907eca9414858a6016ae19b58358481909d9041f109323b26",
+          "type": "agentMessage",
+          "digest": "6bef489b317a6845c83447454025da28740ea75a72315eebe97323add142b53b"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-2e0907c9-6f8c-4bf0-b65f-1f8007e97fb5",
+          "type": "commandExecution",
+          "digest": "6cb20cdc0a765d2a26e7b82d62aadbb089aa76e0d6b5f897e282929156b458bc"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "exec-2aea7a1d-6c54-4783-bf66-20378333bc38",
+          "type": "commandExecution",
+          "digest": "f4b4648af08c60a351f650f0ec495490e1250ffb0823ee87d8ebbf538712c6b1"
+        },
+        {
+          "turnId": "01a18140-0abb-7782-a181-87451ba78144",
+          "id": "msg_0907eca9414858a6016ae19b88a094819099b98f854db22371",
+          "type": "agentMessage",
+          "digest": "6bf3def612ed399e669cd6546c41cd2490317481643853041ad966016b5ab25c"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "01a1813d-3383-70d2-adf4-a22625a2df27",
+          "type": "userMessage",
+          "digest": "556ec507186e0d120141f6cfcb2ca3c9701a87ece830f2e09dc94f0dac30a5f2"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "msg_0907eca9414858a6016ae198e4ada48190b1ee95294f254140",
+          "type": "agentMessage",
+          "digest": "13bc2f31fb48f856d9fdf20dcb0f688f28dd533f7270cd8deda942f485f78247"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "exec-8a44e3ba-af1a-4d85-8431-33dc4c03cf3e",
+          "type": "commandExecution",
+          "digest": "871953125463e02eda3d8550c57c6b5b0601a0bd0026773158317126e327881a"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "exec-e8f7e030-290a-44f4-b4b6-8f3fa881ac7c",
+          "type": "commandExecution",
+          "digest": "aaae9e64998635c2699f0fe153ebcc4ba37b269c8b81d1200ff1ca0a0ccffbcc"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "exec-7714512f-9d29-4bc5-b97c-54b23d488249",
+          "type": "commandExecution",
+          "digest": "1ad013dc768f5a72b02d213f5751388ca9d91f6ed271852bd2caefd6f397b356"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "msg_0907eca9414858a6016ae199166084819098e87c31ee199022",
+          "type": "agentMessage",
+          "digest": "7fb3f4045cac34ff25e8e958ecc243975ed835f0c52bc187bb5a64e57153282a"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "call_ebf2ed1c828d4a2eaccacb8ac3b58714",
+          "type": "agentMessage",
+          "digest": "40c33a7f289b831aca67e729050be1908eda127f9c39b0a1a0e7478832b3dff2"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "exec-d89bc0a4-3046-4ad2-9cb0-bfa0272a09a4",
+          "type": "commandExecution",
+          "digest": "c417a60cf107703be66f9a55d6209902692bb2f278ba0892c2ec6c6b29e1a352"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "msg_0907eca9414858a6016ae1994efce881909fdf2ee94ee92bc0",
+          "type": "agentMessage",
+          "digest": "cb7892a21c964e06c67429eb608791860d3359a53971fcd5ee32028900024858"
+        },
+        {
+          "turnId": "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+          "id": "msg_0907eca9414858a6016ae1996d6b5c8190b086bfb690e907fa",
+          "type": "agentMessage",
+          "digest": "f2816e2972a6119c5b93816ad075f93e50ec77b2cac198af935b8256d96414da"
+        }
+      ],
+      "changedItems": [],
+      "changedTurnStatuses": [],
+      "unchangedTurns": [
+        "01a1812b-0e9f-7383-9916-fd6201a03b03",
+        "01a1812a-c59c-7e30-8215-85479c1bdeeb",
+        "01a18128-efec-7363-940b-cc5ef72c711b",
+        "01a18126-d4f4-7b31-8e49-e3ca2a685794",
+        "01a18123-dadf-7c63-96ba-837daae049d1",
+        "01a180f9-f874-71d0-bc74-55077bb9a67b",
+        "01a180ee-ea50-71d1-b3b2-50ff5bd39e6f",
+        "01a18080-ce74-7ed3-ae41-f1a4da94175b"
+      ]
+    },
+    "state": {
+      "memories": 1,
+      "versions": 2,
+      "version": 2,
+      "events": 13
+    }
+  },
+  "second": {
+    "applied": false,
+    "reason": "same_source_snapshot",
+    "delta": {
+      "newTurns": [],
+      "addedItems": [],
+      "changedItems": [],
+      "changedTurnStatuses": [],
+      "unchangedTurns": [
+        "01a18140-0abb-7782-a181-87451ba78144",
+        "01a1813d-2fe1-7c51-9a16-9873b1fe9271",
+        "01a1812b-0e9f-7383-9916-fd6201a03b03",
+        "01a1812a-c59c-7e30-8215-85479c1bdeeb",
+        "01a18128-efec-7363-940b-cc5ef72c711b",
+        "01a18126-d4f4-7b31-8e49-e3ca2a685794",
+        "01a18123-dadf-7c63-96ba-837daae049d1",
+        "01a180f9-f874-71d0-bc74-55077bb9a67b",
+        "01a180ee-ea50-71d1-b3b2-50ff5bd39e6f",
+        "01a18080-ce74-7ed3-ae41-f1a4da94175b"
+      ]
+    },
+    "state": {
+      "memories": 1,
+      "versions": 2,
+      "version": 2,
+      "events": 13
+    }
+  },
+  "finalState": {
+    "memories": 1,
+    "versions": 2,
+    "version": 2,
+    "events": 13
+  },
+  "priorVersionImmutable": true,
+  "eventsNotReplayed": true,
+  "oldVerificationRetained": true,
+  "newRemoteFactsSource": "historical thread tools; not recaptured as live evidence",
+  "limitations": [
+    "Compared user/assistant messages and tool-result prefixes; clipped source outputs are not full-content verified.",
+    "Native-hook incremental capture is a separate unverified host integration.",
+    "Same snapshot no-op check does not prove all paraphrased reports are semantically deduplicated."
+  ]
+}

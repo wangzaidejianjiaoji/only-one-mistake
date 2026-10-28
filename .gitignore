@@ -1,0 +1,7 @@
+node_modules/
+.evolveflow/
+dist/
+.agents/skills/
+.codex/hooks.json
+*.sqlite*
+*.log

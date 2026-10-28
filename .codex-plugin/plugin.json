@@ -1,0 +1,7 @@
+{
+  "name": "evolveflow-companion",
+  "version": "0.1.0",
+  "description": "Independent EvolveFlow lifecycle companion and context/evidence guide. Review hooks before enabling.",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

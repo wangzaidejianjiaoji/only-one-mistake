@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-27T11:58:17.370Z",
+  "pilotKind": "actual-code-review-case / deliberate-regression-replay",
+  "nativeHookTriggering": "not_tested",
+  "modelCalls": 0,
+  "command": "\"D:\\\\Node\\\\node.exe\" \"--test\" \"--test-name-pattern=an unapproved replacement\" \"test/core.test.ts\"",
+  "baseline": {
+    "exitCode": 1,
+    "output": "(node:75288) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n✖ an unapproved replacement preserves the already active solution and versions remain immutable after rollback (42.041ms)\nℹ tests 1\nℹ suites 0\nℹ pass 0\nℹ fail 1\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 243.1443\n\n✖ failing tests:\n\ntest at test\\core.test.ts:171:1\n✖ an unapproved replacement preserves the already active solution and versions remain immutable after rollback (42.041ms)\n  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n  + actual - expected\n  \n  + 'pending_confirmation'\n  - 'active'\n  \n      at TestContext.<anonymous> (file:///D:/AI-SKILLS/evolveflow/.evolveflow/pilot-final-2026-10-27/project/test/core.test.ts:176:12)\n      at Test.runInAsyncScope (node:async_hooks:228:14)\n      at Test.run (node:internal/test_runner/test:1118:25)\n      at Test.start (node:internal/test_runner/test:1015:17)\n      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17)\n      at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {\n    generatedMessage: true,\n    code: 'ERR_ASSERTION',\n    actual: 'pending_confirmation',\n    expected: 'active',\n    operator: 'strictEqual',\n    diff: 'simple'\n  }\n",
+    "sourceSha256": "3521ca027f17f06c0bdb43f61f8b86f0fea2dac7b282aa892d6630fce41d27c3"
+  },
+  "fixed": {
+    "exitCode": 0,
+    "output": "(node:30548) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n✔ an unapproved replacement preserves the already active solution and versions remain immutable after rollback (84.5463ms)\nℹ tests 1\nℹ suites 0\nℹ pass 1\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 257.8433\n",
+    "sourceSha256": "1e5ebbae0582d2d5312db62c611c69f81361808be39ed2eb864090b9595e02ba"
+  },
+  "reused": {
+    "exitCode": 0,
+    "output": "(node:7156) ExperimentalWarning: SQLite is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n✔ an unapproved replacement preserves the already active solution and versions remain immutable after rollback (99.09ms)\nℹ tests 1\nℹ suites 0\nℹ pass 1\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 243.3568\n",
+    "sourceSha256": "1e5ebbae0582d2d5312db62c611c69f81361808be39ed2eb864090b9595e02ba"
+  },
+  "memory": {
+    "sessionId": "code-review-pilot",
+    "problemKey": "429153b8955164de0cd995b6",
+    "title": "候选规则必须保留已有有效解法",
+    "symptoms": [
+      "提交待确认核心变更后，原 active 解法消失"
+    ],
+    "environment": {
+      "cwd": "D:\\AI-SKILLS\\evolveflow\\.evolveflow\\pilot-final-2026-10-27\\project",
+      "platform": "win32",
+      "version": "v24.14.1",
+      "fingerprint": "3bc851bc515b035b2bd18d4c"
+    },
+    "failedAttempts": [
+      {
+        "action": "\"D:\\\\Node\\\\node.exe\" \"--test\" \"--test-name-pattern=an unapproved replacement\" \"test/core.test.ts\"",
+        "reason": "候选和生效版本共用覆盖路径"
+      }
+    ],
+    "solution": "将 pending/candidate 提案独立保存；只有 active 新版本才替换已有 active 记录。版本号从不可变历史单调分配，回滚不得重写旧版本。修复后运行对应回归测试。",
+    "verification": {
+      "eventId": "1217501013ad2b8e78a2455d",
+      "command": "\"D:\\\\Node\\\\node.exe\" \"--test\" \"--test-name-pattern=an unapproved replacement\" \"test/core.test.ts\"",
+      "evidence": "Node public behavior regression failed with injected old defect and passed with current source"
+    },
+    "triggerTerms": [
+      "候选覆盖",
+      "待确认规则",
+      "active memory",
+      "candidate memory"
+    ],
+    "invalidWhen": [
+      "存储或版本接口改变"
+    ],
+    "scope": "session",
+    "kind": "memory",
+    "id": "831c0cdb0ae715b48839565c",
+    "version": 1,
+    "status": "active",
+    "at": "2026-10-27T11:58:16.608Z"
+  },
+  "problemState": "applied",
+  "immediateContextIncludesMethod": true,
+  "project": "D:\\AI-SKILLS\\evolveflow\\.evolveflow\\pilot-final-2026-10-27\\project",
+  "boundaries": [
+    "Hook payloads submitted explicitly through real CLI; desktop trust was not changed",
+    "Regression deliberately injected in isolated source copy",
+    "No production deployment, no autonomous model calls"
+  ]
+}

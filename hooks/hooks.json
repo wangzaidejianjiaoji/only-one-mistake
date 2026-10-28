@@ -1,0 +1,113 @@
+{
+  "description": "Optional EvolveFlow lifecycle companion; host review and trust required.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "Interrupt": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const p=require('node:path');const r=require('node:child_process').spawnSync(process.execPath,[p.join(process.env.PLUGIN_ROOT||process.env.CLAUDE_PLUGIN_ROOT,'src','cli.ts'),'hook'],{stdio:'inherit'});process.exit(r.status??1)\"",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -EncodedCommand bgBvAGQAZQAgAC0AZQAgACcAYwBvAG4AcwB0ACAAcAA9AHIAZQBxAHUAaQByAGUAKAAnACcAbgBvAGQAZQA6AHAAYQB0AGgAJwAnACkAOwBjAG8AbgBzAHQAIAByAD0AcgBlAHEAdQBpAHIAZQAoACcAJwBuAG8AZABlADoAYwBoAGkAbABkAF8AcAByAG8AYwBlAHMAcwAnACcAKQAuAHMAcABhAHcAbgBTAHkAbgBjACgAcAByAG8AYwBlAHMAcwAuAGUAeABlAGMAUABhAHQAaAAsAFsAcAAuAGoAbwBpAG4AKABwAHIAbwBjAGUAcwBzAC4AZQBuAHYALgBQAEwAVQBHAEkATgBfAFIATwBPAFQAfAB8AHAAcgBvAGMAZQBzAHMALgBlAG4AdgAuAEMATABBAFUARABFAF8AUABMAFUARwBJAE4AXwBSAE8ATwBUACwAJwAnAHMAcgBjACcAJwAsACcAJwBjAGwAaQAuAHQAcwAnACcAKQAsACcAJwBoAG8AbwBrACcAJwBdACwAewBzAHQAZABpAG8AOgAnACcAaQBuAGgAZQByAGkAdAAnACcAfQApADsAcAByAG8AYwBlAHMAcwAuAGUAeABpAHQAKAByAC4AcwB0AGEAdAB1AHMAPwA/ADEAKQAnAA==",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "EvolveFlow Companion"
+  short_description: "检查当前会话上下文、证据队列、报告接口与监控指标"
+  default_prompt: "请使用 $evolveflow-companion 检查当前会话的上下文、待处理证据和监控缺口，并按真实 reportInterface 回写已验证结果。"
